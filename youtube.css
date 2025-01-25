@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+
+.maincontainer {
+    border: 2px solid green;
+}
+
+.navbaercontainer {
+    border: 2px solid red;
+}
+
+.leftnavbarcontainer
+.middlecontainer
+.rightnavbarcontainer {
+    border: 2px solid blue;
+}
+
+.maincontainer {
+    border:2px solid black;
+}
