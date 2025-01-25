@@ -2,22 +2,74 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
- }
-
-.maincontainer {
-    border: 2px solid green;
 }
 
-.navbaercontainer {
-    border: 2px solid red;
+.mainContainer{
+    border: 10px solid green;
+    width: 100vw;
+    height: 100vh;
 }
 
-.leftnavbarcontainer
-.middlecontainer
-.rightnavbarcontainer {
+.navbarContainer{
+    border: 10px solid red;
+    height: 10%;
+    display: flex;
+}
+
+.leftNavbarContainer,
+.middleNavbarContainer,
+.rightNavbarContainer{
     border: 2px solid blue;
+    height: 100%;
 }
 
-.maincontainer {
-    border:2px solid black;
+
+.leftNavbarContainer,
+.rightNavbarContainer{
+    width: 20%;
+}
+
+.middleNavbarContainer{
+    width: 60%;
+}
+
+.mainContentContainer{
+    border: 10px solid black;
+    height: 90%;
+    display: flex;
+
+}
+
+.sidebarContainer{
+    border: 2px solid orange;
+    width: 20%;
+    height: 100%;
+}
+
+.videoMainContainer{
+    border: 2px solid purple;
+    width: 80%;
+    height: 100%;
+}
+
+.fixedCategoriesContainer{
+    border: 2px solid green;
+    height: 10%;
+}
+
+.videoContainer{
+    border: 2px solid red;
+    height: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: .5rem;
+    overflow-y: scroll;
+}
+
+.videoCardContainer{
+    width: 280px;
+    height: 200px;
+    border: 2px solid black;
+    margin: .5rem;
 }
